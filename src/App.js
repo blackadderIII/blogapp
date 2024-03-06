@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './all.css';
+import './navtoggle.js';
 
 function App() {
   return (
@@ -19,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+        {/* <div className="nav active" id='nav'>
+          <a href="1"><i className="fa-game-console-handheld"></i><h4>PS4</h4></a>
+          <a href="1"><i className="fa fa-galaxy"></i><h4>XBOX</h4></a>
+          <a href="1"><i className="fa-game-console-handheld"></i><h4>PS5</h4></a>
+        </div>  */}
     </div>
   );
 }
