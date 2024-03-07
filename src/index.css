@@ -38,3 +38,43 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+.blog-preview{
+  max-width: 600px;
+  background:linear-gradient(
+    to bottom right,
+    rgb(236, 143, 186),
+    rgb(93, 243, 235)
+  );
+  margin-bottom: 25px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition:.3s ease;
+}
+
+.blog-preview:hover{
+  transform: translateY(-10px);
+  background: linear-gradient(to bottom right, #9d80cb, #f7c2e6);
+  box-shadow: 0px 20px 30px 2px #333;
+  
+}
+
+
+
+.blog-preview h2{
+  font-size: 20px;
+  color: #fafafa;;
+  margin-bottom: 8px;
+}
+/* 
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
