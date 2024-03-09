@@ -1,35 +1,46 @@
 {
-    "blogs":[
-
-        {
-            "title":"First Kamehameha",
-            "body":"  The Kamehameha Wave Was passed down from master Roshi himself to our young protagonist Son Goku The Kamehameha Wave Was passed down from master Roshi himself to our young protagonist Son Goku The Kamehameha Wave Was passed down from master Roshi himself to our young protagonist Son Goku The Kamehameha Wave Was passed down from master Roshi himself to our young protagonist Son Goku",
-            "author":"Kamikaze",
-            "id":1
-        },
-        {
-            "title":"Kioaken",
-            "body":" The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku",
-            "author":"S.K.O.B",
-            "id":2
-        },
-        {
-            "title":"SSJ1- Genesis",
-            "body":" The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku",
-            "author":"John",
-            "id":3
-        },
-        {
-            "title":"SSJ2- Exodus",
-            "body":" The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku",
-            "author":"Samuel",
-            "id":4
-        },
-        {
-            "title":"SSJ3- Kings",
-            "body":" The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku",
-            "author":"Goku",
-            "id":5
-        }
-    ]
+  "blogs": [
+    {
+      "title": "First Kamehameha",
+      "body": "  The Kamehameha Wave Was passed down from master Roshi himself to our young protagonist Son Goku The Kamehameha Wave Was passed down from master Roshi himself to our young protagonist Son Goku The Kamehameha Wave Was passed down from master Roshi himself to our young protagonist Son Goku The Kamehameha Wave Was passed down from master Roshi himself to our young protagonist Son Goku",
+      "author": "Kamikaze",
+      "id": "1"
+    },
+    {
+      "title": "Kioaken",
+      "body": " The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku",
+      "author": "S.K.O.B",
+      "id": "2"
+    },
+    {
+      "title": "SSJ1- Genesis",
+      "body": " The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku",
+      "author": "John",
+      "id": "3"
+    },
+    {
+      "title": "SSJ2- Exodus",
+      "body": " The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku",
+      "author": "Samuel",
+      "id": "4"
+    },
+    {
+      "title": "SSJ3- Kings",
+      "body": " The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku The Kaioken Technique is a useful tool used by our protagonist Son Goku",
+      "author": "Goku",
+      "id": "5"
+    },
+    {
+      "id": "1449",
+      "title": "SSJ-4",
+      "body": "This was the pinnacle of strength in the  \"Dragonball universe\" created by Akira Toriyama. Although not Cannon this Transformation is what most OGs call - \"The Strongest\"",
+      "author": "Samuel"
+    },
+    {
+      "id": "4824",
+      "title": "asas",
+      "body": "asas",
+      "author": "John"
+    }
+  ]
 }
