@@ -1,14 +1,19 @@
 * {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
- color: #333;
+  color: #333;
+}
+html {
+  height:100% fit-content; 
+  background: linear-gradient(to bottom right, #5ee4dd, #da38da) ;
+  
 }
 
-.navbar{
+.navbar {
   padding: 20px;
-  display:flex;
+  display: flex;
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
@@ -16,65 +21,189 @@
   /* background-color: pink; */
 }
 
-.navbar h1{
+.navbar h1 {
   color: #f1356d;
 }
-.navbar .links{
+.navbar .links {
   margin-left: auto;
 }
-.navbar a{
+.navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
 
-.navbar a:hover{
-  color:#f1356d;
+.navbar a:hover {
+  color: #f1356d;
 }
 
-.content{
+.content {
   max-width: 600px;
   /* background-color: aqua; */
   margin: 40px auto;
   padding: 20px;
 }
 
-.blog-preview{
-  max-width: 600px;
-  background:linear-gradient(
+.blog-preview {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  background: linear-gradient(
     to bottom right,
     rgb(236, 143, 186),
     rgb(93, 243, 235)
   );
-  margin-bottom: 25px;
+
+  margin: 3% auto;
   padding: 10px 16px;
   border-radius: 10px;
-  transition:.3s ease;
+  transition: 0.3s ease;
 }
 
-.blog-preview:hover{
+.blog-preview i {
+  font-size: 40px;
+  padding: 12px;
+}
+
+.blog-list h2 {
+  margin-bottom: 20px;
+}
+
+.blog-preview:hover {
   transform: translateY(-10px);
   background: linear-gradient(to bottom right, #9d80cb, #f7c2e6);
-  box-shadow: 0px 20px 30px 2px #333;
-  
+  box-shadow: 10px 20px 30px 2px #333;
+  z-index: 3;
 }
 
-
-
-.blog-preview h2{
+.blog-preview h2 {
   font-size: 20px;
-  color: #fafafa;;
+  color: #fafafa;
   margin-bottom: 8px;
 }
-/* 
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* .loading{
+  height: 1%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: loadline 1s ease-in infinite alternate;
+}
+
+
+@keyframes loadline {
+  0%{
+    background:  rgb(236, 143, 186);
   }
-  50% {
-    background-position: 100% 50%;
+  50%{
+    background: rgb(93, 243, 235);
   }
-  100% {
-    background-position: 0% 50%;
+  100%{
+    background: transparent;
   }
 } */
+
+.loading {
+  height: 1.5%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: loadline 1s ease-in infinite alternate;
+  overflow: hidden;
+}
+.loading p {
+  position: relative;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.loading::after {
+  content: "";
+  height: 100%;
+  width: 0;
+  background: rgb(151, 151, 151);
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loadbar 1s ease-in infinite alternate;
+}
+@keyframes loadline {
+  0% {
+    background: rgb(236, 143, 186);
+  }
+  50% {
+    background: rgb(93, 243, 235);
+  }
+  100% {
+    background: transparent;
+  }
+}
+
+@keyframes loadbar {
+  0% {
+    left: 0;
+    width: 0;
+  }
+  100% {
+    left: 100%;
+    width: 100%;
+  }
+}
+
+.blog-details h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+/* .blog-details button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+} */
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea ,.create select{
+  width: 100%;
+  padding: 16px 10px;
+  margin:10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create textarea{
+  height: 268px;
+}
+
+.create button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
