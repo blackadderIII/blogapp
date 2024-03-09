@@ -5,11 +5,13 @@
     sans-serif;
   color: #333;
 }
-html {
-  height:100% fit-content; 
-  background: linear-gradient(to bottom right, #5ee4dd, #da38da) ;
-  
+html,body {
+  height:100vh; 
+  background: linear-gradient(to bottom right, #5ee4dd, #da38da);
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
+
 
 .navbar {
   padding: 20px;
@@ -161,14 +163,14 @@ html {
   margin-bottom: 10px;
 }
 
-/* .blog-details button{
+.blog-details button{
   background: #f1356d;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
-} */
+}
 
 .create{
   max-width: 400px;
