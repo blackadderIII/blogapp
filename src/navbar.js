@@ -1,14 +1,23 @@
+// import { useState } from "react"
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+
 function Navbar(){
-   return(
+    // const [create,setCreate] = useState(false)
+    
+    // const handleCreate =()=>{
+
+    // }
+   
+    return(
     <nav className="navbar">
-        <h1>The Saiyan Blog </h1>
+        <h1>The Saiyan Blog <i className=" fad fa-fire-flame-curved"></i> </h1>
         <div className="links">
-            <a href="/" style={{
+            <Link to="/" style={{
                 color:'white',
                 backgroundColor:'#f1356d',
                 borderRadius: '8px'
-            }}>Home</a>
-            <a href="/create">New Blog</a>
+            }}>Home</Link>
+            <Link to="/createBlog">New Blog</Link>
         </div>
     </nav>
    );
